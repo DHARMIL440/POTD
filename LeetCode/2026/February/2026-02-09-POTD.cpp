@@ -11,7 +11,7 @@ public:
     TreeNode* buildBalanced(const vector<int>& vals, int left, int right) 
     {
         if (left > right) return nullptr;
-        
+            
         int mid = left + (right - left) / 2;
         TreeNode* root = new TreeNode(vals[mid]);
         
